@@ -18,27 +18,38 @@ Once the project moves into development, the press release can be used as a touc
  
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
+  'Jewels' Website'
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
+  'Potential Employers or future MFA/gallery apps'
 
 ## Summary ##
-  > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
+  > Give a summary of the product and the benefit. Assume the reader will not read
+  anything else so make this paragraph good.
+  'This website will give an easy way to quickly view 2 different sides of myself 
+  (tech & art) and will serve as a platform for blogging and connections.'
 
 ## Problem ##
   > Describe the problem your product solves.
+  'Currently i have no official representation on the web'
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
+  'I am making the representation.'
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
+  'yup, that's Jewels'
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
+  'Just start clicking'
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
+  'It was clean easy to navigate'
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
+  'check out the list of links to other awesome websites; in the arts, tech and both together'
