@@ -1,0 +1,120 @@
+
+
+ body, h1, h2, h3, h4, ul, ol, li, p, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+body{
+  width: 100%;
+  height: 100%;
+  background-color: black
+}
+
+.image{
+  background: black url("images/19923706994_4c17fbe5ae_o.jpg");
+  margin: 0 auto 0 auto;
+  width: 960px;
+  height: 717px;
+}
+
+
+.headers {
+  font-family: "PT Mono", "American Typewriter" ;
+  margin: 20px 0 auto 0;
+  text-align: center;
+  color: white;
+  line-height: 50px;
+}
+.headers a {
+  font-family: "PT Mono", "American Typewriter" ;
+  margin: 20px 0 20px 0;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding-right: 80px;
+  padding-left: 80px;  
+}
+.headers a:hover {
+  font-family: "PT Mono", "American Typewriter" ;
+  margin: 20px 0 20px 0;
+  text-align: center;
+  color: pink;
+}
+
+h1 { 
+  font-family: "PT Mono", "American Typewriter";
+  text-align: center; 
+  color: white;
+
+}
+
+.aboutMe { 
+  position: absolute; 
+  text-align: center; 
+  color: white; 
+  background: rgba(7, 7, 7, 0.78);
+  font-family: "PT Mono", "American Typewriter";
+  font-size: 20px;
+  width: 75%;  
+  margin: 15% 0 auto 0;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  color: pink;
+}
+
+.cycle-slideshow img {
+  max-width: 100%
+}
+
+.cycle-slideshow {
+  width: 100%;
+  max-width: 700px; /*this is the width of the image itself*/
+  display: block;
+  position: relative;
+  margin: 20px auto;
+  overflow: hidden;
+
+}
+.cycle-prev, .cycle-next {
+  font-size: 200%;
+  color: white;
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  z-index: 9999;
+  cursor: pointer;
+}
+.cycle-prev {
+  left: 10%;
+}
+.cycle-next {
+  right: 10%;
+}
+.cycle-pager {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  text-align: center;
+  z-index: 9999;
+}
+.cycle-pager span {
+  text-indent: 100%;
+  white-space: nowrap;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.cycle-pager .cycle-pager-active {
+  background: white;
+}
