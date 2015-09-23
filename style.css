@@ -43,7 +43,8 @@ body{
   margin: 20px 0 auto 0;
   text-align: center;
   color: white;
-  line-height: 50px;
+  line-height: 20px;
+  padding-bottom: 15px;
 }
 .headers a {
   font-family: "PT Mono", "American Typewriter" ;
@@ -51,8 +52,8 @@ body{
   text-align: center;
   color: white;
   text-decoration: none;
-  padding-right: 80px;
-  padding-left: 80px;  
+  padding-right: 30px;
+  padding-left: 30px;  
 }
 .headers li {
   display: inline-block;
@@ -63,7 +64,8 @@ body{
   text-decoration: none;
   list-style-type: none;
   padding-right: 80px;
-  padding-left: 80px;  
+  padding-left: 80px; 
+
 }
 .headers a:hover {
   font-family: "PT Mono", "American Typewriter" ;
@@ -81,7 +83,6 @@ body{
   font-family: "PT Mono", "American Typewriter";
   text-align: center; 
   color: white;
-  padding-top: 10px;
 }
 
 .aboutMe { 
@@ -135,7 +136,7 @@ body{
 .cycle-pager {
   width: 100%;
   position: absolute;
-  top: 20px;
+  top: 94%;
   text-align: center;
   z-index: 9999;
 }
