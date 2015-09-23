@@ -1,5 +1,4 @@
 
-
  body, h1, h2, h3, h4, ul, ol, li, p, a {
   padding: 0;
   border: 0;
@@ -17,8 +16,28 @@ body{
   width: 960px;
   height: 717px;
 }
-
-
+.dropdown {
+  position: relative;
+}
+.drop-nav {
+  position: absolute;
+  display: none;
+}
+.drop-nav li {
+  border-bottom: 1px white;
+  margin: 0;
+  padding: 0;
+}
+.dropdown:hover > .drop-nav {
+  display: block;
+  margin-left: -20%;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  line-height: 0;
+  text-align: left;
+  /* work on background box for dropdown */
+}
 .headers {
   font-family: "PT Mono", "American Typewriter" ;
   margin: 20px 0 auto 0;
@@ -35,18 +54,34 @@ body{
   padding-right: 80px;
   padding-left: 80px;  
 }
+.headers li {
+  display: inline-block;
+  font-family: "PT Mono", "American Typewriter" ;
+  margin: 20px 0 20px 0;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  padding-right: 80px;
+  padding-left: 80px;  
+}
 .headers a:hover {
   font-family: "PT Mono", "American Typewriter" ;
   margin: 20px 0 20px 0;
   text-align: center;
   color: pink;
 }
-
-h1 { 
+.greeting { 
   font-family: "PT Mono", "American Typewriter";
   text-align: center; 
   color: white;
-
+  padding-top: 110px;
+}
+.greeting-carousel {
+  font-family: "PT Mono", "American Typewriter";
+  text-align: center; 
+  color: white;
+  padding-top: 10px;
 }
 
 .aboutMe { 
@@ -74,10 +109,10 @@ h1 {
 
 .cycle-slideshow {
   width: 100%;
-  max-width: 700px; /*this is the width of the image itself*/
+  max-width: 612px; /*this is the width of the image itself*/
   display: block;
   position: relative;
-  margin: 20px auto;
+  margin: 20px auto -10px auto;
   overflow: hidden;
 
 }
@@ -118,3 +153,32 @@ h1 {
 .cycle-pager .cycle-pager-active {
   background: white;
 }
+/* ceramics, painting/drawing, digital */
+.image-blocks img {
+  width: 150px;
+  height: 150px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.image-blocks table {
+  padding-top: 20px;
+  padding-left: 20%;
+}
+.image-blocks td {
+  color:white;
+}
+.image-blocks-ceramic img {
+  width: 150px;
+  height: 150px;
+  padding-right: 20px;
+  padding-left: 20px; 
+}
+.image-blocks-ceramic table {
+  padding-top: 5%;
+  padding-left: 25%;
+}
+.image-blocks-ceramic td {
+  color:white;
+}
+
+
