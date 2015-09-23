@@ -1,0 +1,13 @@
+{
+  "name": "julia-website",
+  "version": "0.0.1",
+  "description": "website i made",
+  "main": "app.js",
+  "repository": "",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "mime" : "~1.2.7"
+  }
+}

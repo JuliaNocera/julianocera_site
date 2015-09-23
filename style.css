@@ -14,7 +14,7 @@ body{
   background: black url("images/19923706994_4c17fbe5ae_o.jpg");
   margin: 0 auto 0 auto;
   width: 960px;
-  height: 717px;
+  height: 500px;
 }
 .dropdown {
   position: relative;
@@ -92,7 +92,8 @@ body{
   background: rgba(7, 7, 7, 0.78);
   font-family: "PT Mono", "American Typewriter";
   font-size: 20px;
-  width: 75%;  
+  width: 76%;  
+  left: 12%;
   margin: 15% 0 auto 0;
 }
 
