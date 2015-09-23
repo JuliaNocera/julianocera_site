@@ -43,7 +43,7 @@ body{
   margin: 20px 0 auto 0;
   text-align: center;
   color: white;
-  line-height: 20px;
+  line-height: 30px;
   padding-bottom: 15px;
 }
 .headers a {
@@ -181,5 +181,11 @@ body{
 .image-blocks-ceramic td {
   color:white;
 }
-
+.space li {
+  position: absolute;
+  height: 100px;
+  color: white;
+  margin-left: 44%;
+  list-style-type: none;
+}
 
