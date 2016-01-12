@@ -13,7 +13,7 @@ body{
 .image{
   background: black url("images/19923706994_4c17fbe5ae_o.jpg");
   margin: 0 auto 0 auto;
-  width: 77%;
+  width: 960px;
   height: 500px;
 }
 .dropdown {
