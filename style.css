@@ -23,19 +23,24 @@ body{
   position: absolute;
   display: none;
 }
-.drop-nav li {
+.dropdown:hover > .drop-nav li {
   border-bottom: 1px white;
-  margin: 0;
+  text-align: center;
   padding: 0;
+  z-index: 9999;
 }
 .dropdown:hover > .drop-nav {
   display: block;
-  margin-left: -20%;
+  margin-left: -8%;
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
   line-height: 0;
-  text-align: left;
+  text-align: center;
+  z-index: 9999;
+  background-color: rgba(120, 120, 120, .7);
+  border-radius: 3px;
+  width: 50%;
   /* work on background box for dropdown */
 }
 .headers {
@@ -52,8 +57,8 @@ body{
   text-align: center;
   color: white;
   text-decoration: none;
-  padding-right: 30px;
-  padding-left: 30px;  
+  padding-right: 10px;
+  padding-left: 10px;  
 }
 
 .headers li {
@@ -145,7 +150,7 @@ body{
   position: absolute;
   top: 94%;
   text-align: center;
-  z-index: 9999;
+  z-index: 9990;
 }
 
 .cycle-pager span {
